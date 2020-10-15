@@ -1077,6 +1077,13 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@chrisoakman/chessboardjs@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@chrisoakman/chessboardjs/-/chessboardjs-1.0.0.tgz#2cfc3399bed5e9933bd8d02ea4b405e21a0b611b"
+  integrity sha512-JHXHoQwwc86xW3F0YIdFcEWLnPldee5mHkqwJbOTeDh5gvNmYXyBj6AkeecDkj2WtORF959yaWYlpyZHUl3LCQ==
+  dependencies:
+    jquery ">=3.4.1"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -2857,6 +2864,11 @@ chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
+
+chess.js@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/chess.js/-/chess.js-0.11.0.tgz#e1802179b944eab5daf11b5d4bce08cdcadbeffa"
+  integrity sha512-yTpi6XbRMkBtnjSvbt6wEp9Y7JzhJl1MC3GNn67q5ClyccXxCRf5cMPSUg4OblrUapg1kLHm7WzxxEVp20NK1Q==
 
 chokidar@^2.0.2, chokidar@^2.1.8:
   version "2.1.8"
@@ -6156,6 +6168,11 @@ jest@24.9.0:
   dependencies:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
+
+jquery@>=3.4.1, jquery@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
+  integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
