@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57eb92c82b6d774cfeae12b31ef7f449",
+    "revision": "4ff1b46d320d2427d5efd80ef445ec32",
     "url": "/chess-positional-trainer/index.html"
   },
   {
-    "revision": "7a230da1afc32cdc27fe",
+    "revision": "784fe423571978f2821f",
     "url": "/chess-positional-trainer/static/css/main.d038e1bc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chess-positional-trainer/static/js/2.a95646ce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a230da1afc32cdc27fe",
-    "url": "/chess-positional-trainer/static/js/main.f21d4546.chunk.js"
+    "revision": "784fe423571978f2821f",
+    "url": "/chess-positional-trainer/static/js/main.008edcd9.chunk.js"
   },
   {
     "revision": "2efb52af1052d89cc778",
