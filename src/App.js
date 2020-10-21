@@ -62,9 +62,10 @@ class App extends React.Component {
       <div>
         <h2>{this.state.correct ? "Correct!" : "Incorrect"}</h2>
         <p id="score">{"Stockfish evaluation: " + parseInt(this.state.score)/100}</p>
-        <p>{this.state.fen}</p>
+        
         <button type="button" onClick={() => {let random = this.getRandomInt(this.state.games.length)
           this.setState({picked:false, hideScore: true, fen: this.state.games[random].fen, score:this.state.games[random].score, game:random})}}>Next</button>
+        <p>{this.state.fen}</p>
       </div> : null}
       </>
       );
