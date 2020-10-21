@@ -8,12 +8,12 @@ class App extends React.Component {
       this.state = {fen: "", score: "", hideScore: true, picked: false}
   }
   componentDidMount() {
-    return fetch("chess-positional-trainer/games.json")
+    return fetch(process.env.PUBLIC_URL + "/games.json")
     .then((response) => response.json())
       .then((jsonData) => {
         this.setState({games: jsonData.games})
         let random = this.getRandomInt(this.state.games.length)
-        this.setState({fen: jsonData.games[random].fen, score:jsonData.games[random].score});
+        this.setState({fen: jsonData.games[random].fen, score:jsonData.games[random].score, game:random});
       })
       .catch((error) => {
         console.error(error)
@@ -44,7 +44,10 @@ class App extends React.Component {
     return (
       <>
       <h1>CHESS POSITIONAL TRAINER</h1>
-      <Chessboard calcWidth={({ screenWidth, screenHeight}) => Math.min(0.6*screenWidth, 450)} position={this.state.fen} draggable={false} orientation = {this.state.fen.split(" ")[1] === 'w' ? 'white' : 'black'}/>
+      <h2>{"#" + this.state.game}</h2>
+      <div className="board">
+        <Chessboard calcWidth={({ screenWidth, screenHeight}) => Math.min(0.6*screenWidth, 450)} position={this.state.fen} draggable={false} orientation = {this.state.fen.split(" ")[1] === 'w' ? 'white' : 'black'}/>
+      </div>
       
       {this.state.picked ? null :
       <>
@@ -61,7 +64,7 @@ class App extends React.Component {
         <p id="score">{"Stockfish evaluation: " + parseInt(this.state.score)/100}</p>
         <p>{this.state.fen}</p>
         <button type="button" onClick={() => {let random = this.getRandomInt(this.state.games.length)
-          this.setState({picked:false, hideScore: true, fen: this.state.games[random].fen, score:this.state.games[random].score})}}>Next</button>
+          this.setState({picked:false, hideScore: true, fen: this.state.games[random].fen, score:this.state.games[random].score, game:random})}}>Next</button>
       </div> : null}
       </>
       );
