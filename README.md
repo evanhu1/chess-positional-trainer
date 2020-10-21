@@ -1,2 +1,0 @@
-# chess-positional-trainer
-pages
