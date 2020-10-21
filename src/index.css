@@ -16,4 +16,13 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

@@ -6,13 +6,21 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+h1 {
+  font-size: 2rem;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.evalButtons {
+  margin: 0 0.5rem;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,9 +31,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+div {
+  cursor: auto!important;
+}
 .App-link {
   color: #61dafb;
+}
+
+button {
+  margin-top: 1rem;
 }
 
 @keyframes App-logo-spin {
