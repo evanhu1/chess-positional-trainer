@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chess-positional-trainer/precache-manifest.91305c9fb54e410aedb777521c292a5b.js"
+  "/chess-positional-trainer/precache-manifest.e05acf4fc04642916542e018e0a6c9c5.js"
 );
 
 self.addEventListener('message', (event) => {
