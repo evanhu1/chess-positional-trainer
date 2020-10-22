@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/chess-positional-trainer/static/css/main.d7a3c6d8.chunk.css",
-    "main.js": "/chess-positional-trainer/static/js/main.d85eacf0.chunk.js",
-    "main.js.map": "/chess-positional-trainer/static/js/main.d85eacf0.chunk.js.map",
+    "main.js": "/chess-positional-trainer/static/js/main.b13c2244.chunk.js",
+    "main.js.map": "/chess-positional-trainer/static/js/main.b13c2244.chunk.js.map",
     "runtime-main.js": "/chess-positional-trainer/static/js/runtime-main.ca759f33.js",
     "runtime-main.js.map": "/chess-positional-trainer/static/js/runtime-main.ca759f33.js.map",
     "static/js/2.a95646ce.chunk.js": "/chess-positional-trainer/static/js/2.a95646ce.chunk.js",
     "static/js/2.a95646ce.chunk.js.map": "/chess-positional-trainer/static/js/2.a95646ce.chunk.js.map",
     "index.html": "/chess-positional-trainer/index.html",
-    "precache-manifest.ca032da7a3a9f7a463103377ba9ba050.js": "/chess-positional-trainer/precache-manifest.ca032da7a3a9f7a463103377ba9ba050.js",
+    "precache-manifest.77421cf4d199759b3fa5a742ca00c794.js": "/chess-positional-trainer/precache-manifest.77421cf4d199759b3fa5a742ca00c794.js",
     "service-worker.js": "/chess-positional-trainer/service-worker.js",
     "static/css/main.d7a3c6d8.chunk.css.map": "/chess-positional-trainer/static/css/main.d7a3c6d8.chunk.css.map",
     "static/js/2.a95646ce.chunk.js.LICENSE.txt": "/chess-positional-trainer/static/js/2.a95646ce.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ca759f33.js",
     "static/js/2.a95646ce.chunk.js",
     "static/css/main.d7a3c6d8.chunk.css",
-    "static/js/main.d85eacf0.chunk.js"
+    "static/js/main.b13c2244.chunk.js"
   ]
 }
