@@ -20,6 +20,7 @@ code {
   flex-direction: column;
   text-align: center;
   margin: 1rem 0;
+  width: 100%;
 }
 
 #root {
@@ -27,4 +28,5 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 90%;
 }

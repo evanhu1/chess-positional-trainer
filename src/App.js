@@ -59,7 +59,7 @@ class App extends React.Component {
       </div>
       </>}
       {this.state.picked ? 
-      <div>
+      <div id="bottom">
         <h2>{this.state.correct ? "Correct!" : "Incorrect"}</h2>
         <p id="score">{"Stockfish evaluation: " + parseInt(this.state.score)/100}</p>
         
